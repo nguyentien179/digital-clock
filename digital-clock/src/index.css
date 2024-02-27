@@ -1,0 +1,22 @@
+body {
+  background-image: url(assets/bgimage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  padding: 10px 0;
+}
+.clock {
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-shadow: 3px 3px 5px black;
+  text-align: center;
+}
